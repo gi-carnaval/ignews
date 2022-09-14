@@ -18,7 +18,7 @@ export default async function createCheckout(req: NextApiRequest, res: NextApiRe
         const session = await getSession({ req })
 
         const {email} = session?.user!;
-        console.log("Email AQUI ------------> ", email)
+
         const user = await fauna.query<User>(
             q.Get(
                 q.Match(
