@@ -81,9 +81,9 @@ $ yarn dev
 ## :framed_picture: Images ##
 
 <h1 align="center">
-    <img alt = "Web app" src = "https://github.com/gi-carnaval/ignews/blob/main/.github/Home.PNG" width = "500px" />
-    <img alt = "Web app" src = "https://github.com/gi-carnaval/ignews/blob/main/.github/Posts.png" width = "500px" />
-    <img alt = "Web app" src = "https://github.com/gi-carnaval/ignews/blob/main/.github/PostPrivate.png" width = "500px" />
-    <img alt = "Web app" src = "https://github.com/gi-carnaval/ignews/blob/main/.github/Post.png" width = "500px" />
-    <img alt = "Web app" src = "https://github.com/gi-carnaval/ignews/blob/main/.github/Subscription.png" width = "500px" />
+    <img alt = "Web app" src = "./.github/Home.PNG" width = "500px" />
+    <img alt = "Web app" src = "./.github/Posts.PNG" width = "500px" />
+    <img alt = "Web app" src = "./.github/PostPrivate.PNG" width = "500px" />
+    <img alt = "Web app" src = "./.github/Post.PNG" width = "500px" />
+    <img alt = "Web app" src = "./.github/Subscription.PNG" width = "500px" />
 </h1>
