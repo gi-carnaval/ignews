@@ -33,7 +33,6 @@ const subscribe = async (req: NextApiRequest, res: NextApiResponse) => {
         if (!customerId) {
             const stripeCustomer = await stripe.customers.create({
                 email: `${email}`,
-                // metadata
             })
 
             await fauna.query(
@@ -46,7 +45,6 @@ const subscribe = async (req: NextApiRequest, res: NextApiResponse) => {
                     }
                 )
             )
-
             customerId = stripeCustomer.id
         }
         
