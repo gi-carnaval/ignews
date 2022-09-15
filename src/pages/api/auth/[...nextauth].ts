@@ -15,7 +15,7 @@ export default NextAuth({
   ],
   callbacks: {
     async session({session}) {
-      const email  = session.user?.email;
+      const email  = session.user?.email!;
       
       try {
         const userActiveSubscription = await fauna.query(
@@ -28,7 +28,7 @@ export default NextAuth({
                   q.Get(
                     q.Match(
                       q.Index('user_by_email'),
-                      q.Casefold(email ? email : "")
+                      q.Casefold(email)
                     )
                   )
                 )
