@@ -84,6 +84,13 @@ export default NextAuth({
           err.errors()[0].description,
         ))
         return true
+<<<<<<< HEAD
      }   
   }
 })
+=======
+      }
+      
+  }
+})
+>>>>>>> site
