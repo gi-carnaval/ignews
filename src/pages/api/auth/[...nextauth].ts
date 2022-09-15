@@ -85,6 +85,5 @@ export default NextAuth({
         ))
         return true
       }
-      
   }
 })
