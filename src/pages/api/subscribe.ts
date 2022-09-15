@@ -13,12 +13,14 @@ type User = {
     }
 }
 
-export default async function createCheckout(req: NextApiRequest, res: NextApiResponse) {
+const subscribe = async (req: NextApiRequest, res: NextApiResponse) => {
+    console.log("METHOD -> ", req.method)
     if(req.method === 'POST') {
         const session = await getSession({ req })
 
         const {email} = session?.user!;
-        console.log("Email AQUI ------------> ", email)
+        console.log(email)
+
         const user = await fauna.query<User>(
             q.Get(
                 q.Match(
@@ -28,12 +30,13 @@ export default async function createCheckout(req: NextApiRequest, res: NextApiRe
             )
         )
 
+        console.log(user)
+
         let customerId = user.data.stripe_customer_id
 
         if (!customerId) {
             const stripeCustomer = await stripe.customers.create({
                 email: `${email}`,
-                // metadata
             })
 
             await fauna.query(
@@ -46,7 +49,6 @@ export default async function createCheckout(req: NextApiRequest, res: NextApiRe
                     }
                 )
             )
-
             customerId = stripeCustomer.id
         }
         
@@ -71,3 +73,5 @@ export default async function createCheckout(req: NextApiRequest, res: NextApiRe
         res.status(405).end('Method not allowed')
     }
 }
+
+export default subscribe
