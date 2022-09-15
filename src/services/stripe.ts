@@ -8,7 +8,6 @@ export const stripe = new Stripe(
         appInfo: {
             name: 'Ignews',
             version: packageInfo.version,
-            url: 'https://giovani-carnaval-ignews.vercel.app',
         }
     }
 )
