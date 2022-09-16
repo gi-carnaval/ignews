@@ -4,7 +4,7 @@
 
 </h1>
 
-<p align="center">
+<div align="center">
   IGNEWS - News portal 📰🚀
   <br>
   <br>
@@ -18,17 +18,17 @@
   </a>
 
   <img alt="License" src="https://img.shields.io/github/license/gi-carnaval/ignews">
-</p>
+</div>
 
 
 
-<p align="center">
+<nav align="center">
   <a href="#information_source-about">About</a> &#xa0; | &#xa0; 
   <a href="#bulb-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#framed_picture-images">Images</a> &#xa0; &#xa0;
-</p>
+</nav>
 
 <br>
 
@@ -78,17 +78,18 @@ $ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
-## :framed_picture: Images ##
+## :framed_picture: Images
 
-# Desktop Layout #
-<h1 align="center">
+# Desktop Layout 
+<div align="center">
     <img alt = "Web app" src = "./.github/Home.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/Posts.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/PostPrivate.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/Post.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/Subscription.PNG" width = "500px" />
-</h1>
-# Mobile Layout #
-<h1 align="center">
-    <img alt = "Web app" src = "./.github/Mobile.PNG" width = "500px" />
-</h1>
+</div>
+
+# Mobile Layout 
+<div align="center">
+    <img alt = "Web app" src = "./.github/Mobile.pnh" width = "500px" />
+</div>
