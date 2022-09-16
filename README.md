@@ -80,10 +80,15 @@ $ yarn dev
 ```
 ## :framed_picture: Images ##
 
+# Desktop Layout #
 <h1 align="center">
     <img alt = "Web app" src = "./.github/Home.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/Posts.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/PostPrivate.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/Post.PNG" width = "500px" />
     <img alt = "Web app" src = "./.github/Subscription.PNG" width = "500px" />
+</h1>
+# Mobile Layout #
+<h1 align="center">
+    <img alt = "Web app" src = "./.github/Mobile.PNG" width = "500px" />
 </h1>
