@@ -4,7 +4,7 @@
 
 </h1>
 
-<div align="center">
+<p align="center">
   IGNEWS - News portal 📰🚀
   <br>
   <br>
@@ -18,7 +18,7 @@
   </a>
 
   <img alt="License" src="https://img.shields.io/github/license/gi-carnaval/ignews">
-</div>
+</p>
 
 
 
