@@ -91,5 +91,5 @@ $ yarn dev
 
 # Mobile Layout 
 <div align="center">
-    <img alt = "Web app" src = "./.github/Mobile.pnh" width = "500px" />
+    <img alt = "Web app" src = "./.github/Mobile.png" width = "500px" />
 </div>
