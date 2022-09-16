@@ -43,3 +43,28 @@
         margin-top: 1.5rem;
     }
 }
+
+@media (max-width: 768px) {
+    .contentContainer {
+        margin: 0 auto;
+
+        .hero {
+            text-align: center;
+
+            .h1 {
+                font-size: 2.5rem;
+            }
+
+            button {
+                margin: 1.5rem auto;
+            }
+        }
+
+        img {
+            position: fixed;
+            opacity: .2;
+            z-index: -1;
+        }
+
+    }
+}

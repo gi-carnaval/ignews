@@ -16,6 +16,10 @@ export function Header(){
                         </a>
                     </Link>
                 </div>
+                <div className={styles.mobileMenu}>
+                    <div className={styles.lines}></div>
+                </div>
+                
                 <nav>
                     <ActiveLink activeClassName={styles.active} href="/">
                         <a>Home</a>

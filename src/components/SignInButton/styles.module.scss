@@ -31,3 +31,30 @@
         filter: brightness(0.8);
     }
 }
+
+@media (max-width: 720px){
+    .signInButton {
+        font-size: .75rem;
+        padding: 0 0.5rem;
+        
+        span {
+            display: none;
+        }
+
+        .logout, .signIn{
+            display: block;
+        }
+
+        .signIn {
+            margin-right: 1rem;
+        }
+        
+        
+            
+
+        // svg {
+        //     display: none;
+        // }
+        
+    }
+}
